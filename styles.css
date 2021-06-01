@@ -49,10 +49,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 200px 200px ;
+    flex: 2;
     border-radius: 20px;
     overflow: hidden;
-    justify-content: flex-end;
+    
+    margin: 20px 100px 20px 40px;
+
     
 }
 
@@ -145,10 +147,11 @@ body{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 80px 10px 20px 750px;
+  flex: 1;
   border-radius: 20px;
   overflow: hidden;
   width: 400px;
+  margin: 20px 40px 20px 100px;
   
   
 }
@@ -157,7 +160,6 @@ body{
   margin: 10px;
 
 }
-
 
 
 .profile-image-list-container h6{
@@ -182,6 +184,14 @@ body{
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
+}
+
+.selling-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
 }
 
 /* end profile update css */
